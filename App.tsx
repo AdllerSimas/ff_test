@@ -14,7 +14,7 @@ const App: React.FC = () => {
   
   return (
     <View>
-      <Text style={{color: '#000000'}}> It's just a test!</Text>
+      <Text style={{color: '#000000'}}> It's just a another test!</Text>
     </View>
   )
 }
