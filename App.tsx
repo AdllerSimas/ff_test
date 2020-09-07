@@ -15,12 +15,11 @@ const App: React.FC = () => {
   
   return (
     <View>
-      <Text style={{color: '#000000'}}> It's just a another test!</Text>
+      <Text style={{color: '#000000'}}> It's just a another test! It's should works!</Text>
     </View>
   )
 }
 
 export default codePush({
   checkFrequency: codePush.CheckFrequency.ON_APP_RESUME,
-  
 })(App);
